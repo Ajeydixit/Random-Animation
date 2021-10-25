@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    font-weight: bold;
+    color: aliceblue;
+}
+h1{
+    font-size: 70px;
+}
+
+.box {
+    border-style: solid;
+    font-size: 50px;
+    border-width: 1px;
+    display: block;
+    height: 60px;
+    width: 60px;
+    
+    transition: width 2s, height 2s, background-color 2s, transform 1s ,font-size 2s , text-shadow 2s, box-shadow 1s;
+}
+
+.box:hover {
+    box-shadow: 3px 3px teal, -3px -3px olive;
+    text-shadow: 5px 5px #558abb;
+   font-size: 120px;
+   width: 130px;
+   height: 130px;
+    transform:translateX(20px);
+}
